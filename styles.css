@@ -1,8 +1,15 @@
-/*
+/* Ctrl+mousewheel text zoom plugin */
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+body.obsidian-mousewheel-zoom {
+	--obsidian-mousewheel-zoom: 1;
+}
 
-If your plugin does not need CSS, delete this file.
+/* Editor mode - zoom the CodeMirror content */
+body.obsidian-mousewheel-zoom .cm-editor .cm-scroller {
+	zoom: var(--obsidian-mousewheel-zoom, 1);
+}
 
-*/
+/* Reading mode - zoom the markdown preview content */
+body.obsidian-mousewheel-zoom .markdown-preview-view .markdown-preview-sizer {
+	zoom: var(--obsidian-mousewheel-zoom, 1);
+}
