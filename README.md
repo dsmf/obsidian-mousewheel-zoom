@@ -5,7 +5,7 @@ An [Obsidian](https://obsidian.md) plugin that lets you zoom editor and preview 
 ## Features
 
 - **Ctrl+scroll** (or Cmd+scroll on Mac) to zoom in and out
-- Works in both **editor** and **reading** (preview) mode
+- Works in **editor**, **reading** (preview), **file explorer**, **search results**, **backlinks**, **outline**, and **tag pane**
 - Zoom range: 50%–200%
 - Settings tab with slider and reset button
 - Commands: Zoom in, Zoom out, Reset zoom

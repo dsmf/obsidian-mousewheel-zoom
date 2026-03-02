@@ -13,3 +13,24 @@ body.obsidian-mousewheel-zoom .cm-editor .cm-scroller {
 body.obsidian-mousewheel-zoom .markdown-preview-view .markdown-preview-sizer {
 	zoom: var(--obsidian-mousewheel-zoom, 1);
 }
+
+/* File explorer */
+body.obsidian-mousewheel-zoom .nav-files-container {
+	zoom: var(--obsidian-mousewheel-zoom, 1);
+}
+
+/* Search results & backlinks */
+body.obsidian-mousewheel-zoom .search-result-container,
+body.obsidian-mousewheel-zoom .backlink-pane {
+	zoom: var(--obsidian-mousewheel-zoom, 1);
+}
+
+/* Outline */
+body.obsidian-mousewheel-zoom .outline {
+	zoom: var(--obsidian-mousewheel-zoom, 1);
+}
+
+/* Tag pane */
+body.obsidian-mousewheel-zoom .tag-pane-tags {
+	zoom: var(--obsidian-mousewheel-zoom, 1);
+}
