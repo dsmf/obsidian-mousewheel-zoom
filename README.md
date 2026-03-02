@@ -56,7 +56,19 @@ $env:VAULT = "C:\Path\To\Your\Vault"
 npm run deploy
 ```
 
-This builds the plugin and copies `main.js`, `manifest.json`, and `styles.css` to `VAULT/.obsidian/plugins/obsidian-mousewheel-zoom/`.
+For multiple vaults, separate paths with colons (Unix) or semicolons (Windows):
+
+```bash
+export VAULT="/path/vault1:/path/vault2"
+npm run deploy
+```
+
+```powershell
+$env:VAULT = "C:\Vault1;C:\Vault2"
+npm run deploy
+```
+
+This builds the plugin and copies `main.js`, `manifest.json`, and `styles.css` to each vault's `.obsidian/plugins/obsidian-mousewheel-zoom/`.
 
 ## Releasing
 
