@@ -5,10 +5,10 @@ An [Obsidian](https://obsidian.md) plugin that lets you zoom editor and preview 
 ## Features
 
 - **Ctrl+scroll** (or Cmd+scroll on Mac) to zoom in and out
+- **Zoom mode** – per-pane (default): zoom only the pane under cursor; everywhere: zoom all panes at once
 - Works in **editor**, **reading** (preview), **file explorer**, **search results**, **backlinks**, **outline**, and **tag pane**
 - Zoom range: 50%–200%
-- Settings tab with slider and reset button
-- Commands: Zoom in, Zoom out, Reset zoom
+- Commands: Zoom in, Zoom out, Reset zoom, Reset zoom (all panes)
 
 ## Installation
 
@@ -30,7 +30,9 @@ VaultFolder/.obsidian/plugins/obsidian-mousewheel-zoom/
 
 - **Zoom in:** Hold Ctrl (or Cmd on Mac) and scroll up
 - **Zoom out:** Hold Ctrl (or Cmd on Mac) and scroll down
-- **Reset:** Use the "Reset zoom" command or the button in Settings
+- **Per-pane mode (default):** Zoom applies only to the pane under your cursor
+- **Everywhere mode:** Zoom applies to all panes at once (set in Settings)
+- **Reset:** Use "Reset zoom" for the active pane, or "Reset zoom (all panes)" / Settings button
 
 ## Development
 
