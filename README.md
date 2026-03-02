@@ -41,7 +41,7 @@ VaultFolder/.obsidian/plugins/obsidian-mousewheel-zoom/
 
 ### Deploying to Vault
 
-Set the `VAULT` environment variable to your test vault path, then run:
+Set the `VAULT` environment variable to your vault path, then run:
 
 ```bash
 npm run deploy
