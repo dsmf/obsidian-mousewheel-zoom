@@ -39,7 +39,7 @@ VaultFolder/.obsidian/plugins/obsidian-mousewheel-zoom/
 - `npm run dev` for watch mode
 - `npm run build` for production build
 
-### Deploying to Test Vault
+### Deploying to Vault
 
 Set the `VAULT` environment variable to your test vault path, then run:
 
